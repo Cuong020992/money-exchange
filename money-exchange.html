@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<label>Amount</label><br>
+<input type="text" placeholder="nhập số tiền vào" id="inputMoney" size="30"><br>
+<label>From Curency</label><br>
+<select id="from">
+    <option value="vn">Viet Nam</option>
+    <option value="usd">USD</option>
+
+</select><br>
+<label>To Curency</label><br>
+<select id="to">
+    <option value="usd">USD</option>
+    <option value="vn">Viet Nam</option>
+</select><br>
+<input type="button"  value="Convert" onclick="moneyExchange()" size="10" style="background: green; color: white">
+<br><p id="result"></p>
+
+</body>
+</html>
+<script type="text/javascript" src="money-exchange.js"></script>
